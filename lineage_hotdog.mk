@@ -30,3 +30,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus7TPro \
     SystemDevice=OnePlus7TPro \
     SystemName=OnePlus7TPro
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 855+" \
+    RisingMaintainer="Mystery"
+
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_BCR := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
